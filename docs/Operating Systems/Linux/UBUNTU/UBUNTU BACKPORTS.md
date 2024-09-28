@@ -1,0 +1,3 @@
+When Ubuntu releases a new version of its OS every 6 months, that release is largely frozen in time. While the software that is part of that release will get bug fixes and security patches, new major releases of software and the new features that come with them will not be available.
+
+That’s where Ubuntu Backports comes in. Backports offers a way to selectively provide newer versions of software for older Ubuntu releases. Most commonly, the Backports team will provide new versions of standalone applications which can be safely updated without impacting the rest of the system.

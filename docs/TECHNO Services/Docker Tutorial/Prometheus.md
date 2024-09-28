@@ -1,0 +1,3 @@
+### Introduction
+
+- Prometheus is an open-source monitoring system that is used for monitoring and alerting on the health and performance of a containerized infrastructure. Prometheus collects metrics from various sources, including containers, Kubernetes clusters, and other services, and stores them in a time-series database. It provides a powerful query language called PromQL that allows users to query and analyze the collected metrics. Prometheus also provides a web-based dashboard and alerting capabilities to help users visualize and respond to any issues.
