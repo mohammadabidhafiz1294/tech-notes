@@ -17,10 +17,13 @@ import { TagContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import fs from 'fs';
+import path from 'path';
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
+
 
 export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) => {
   const opts: FullPageLayout = {
@@ -71,6 +74,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
 
       return graph
     },
+
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const fps: FilePath[] = []
       const allFiles = content.map((c) => c[1].data)
@@ -137,3 +141,21 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
     },
   }
 }
+
+// Add this utility function to sanitize file names
+function sanitizeFileName(fileName: string): string {
+  // Replace invalid characters with an underscore or any other valid character
+  return fileName.replace(/[<>:"/\\|?*]+/g, '_');
+}
+
+// Example function where the file is written
+async function writeTagPage(tag: string, content: string): Promise<void> {
+  const sanitizedTag = sanitizeFileName(tag);
+  const filePath = path.join('public', 'tags', `${sanitizedTag}.html`);
+  await fs.promises.writeFile(filePath, content);
+}
+
+// Example usage
+const tag = 'Port-forwarding**';
+const content = '<html>...</html>';
+writeTagPage(tag, content).catch(console.error);
