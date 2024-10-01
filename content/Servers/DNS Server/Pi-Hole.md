@@ -1,0 +1,7 @@
+#Pi-hole is not a recursive name server by default. Pi-hole is a network-wide ad blocker that acts as a DNS sinkhole, blocking unwanted advertisements at the network level. It functions as a DNS server, but it primarily operates as a filtering #DNS resolver.
+
+When a device on your network sends a DNS query, Pi-hole intercepts the request and checks its blocklist to determine if the requested domain is an advertisement. If it is, Pi-hole returns a blocked response, preventing the ad from loading. If the domain is not on the blocklist, Pi-hole forwards the DNS query to an upstream #DNS server for resolution.
+
+Pi-hole can be configured to use various upstream DNS servers for recursive resolution. By default, it uses public DNS servers like Google DNS or OpenDNS as its upstream resolvers. These upstream #DNS servers perform the recursive resolution by contacting authoritative name servers and returning the IP address for the requested domain.
+
+So, while Pi-hole does use recursive name servers as upstream resolvers to resolve DNS queries, Pi-hole itself is not a recursive name server. It acts as a filtering DNS resolver that blocks ads and forwards non-blocked queries to recursive name servers for resolution.

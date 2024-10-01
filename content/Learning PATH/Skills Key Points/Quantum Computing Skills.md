@@ -1,0 +1,39 @@
+Skills Listed Added to Linkedin
+- [x] X (Programming Framework/simulators)
+- [ ] Qiskit
+- [ ] Cirq
+- [ ] Q#
+- [ ] PyQuil
+- [ ] Q|SI>
+- [ ] Silq
+- [ ] QML
+- [ ] LIQUi|>
+- [x] X
+- [ ] Qubits - gates,circuit,measurements
+- [ ] superconducting circuits
+- [ ] trapped ions
+- [ ] photonics
+- [ ] spin qubits
+- [ ] decoherence
+- [ ] noise
+- [ ] Scalability
+- [ ] Quantum Information
+- [ ] Quantum Entanglement
+- [ ] Superposition
+- [ ] Quantum Algorithms
+- [ ] Simulating quantum systems
+- [ ] Quantum application
+- [ ] Quantum Cryogenic
+- [ ] Deep Learning techniques
+- [ ] parameterized quantum circuits (PQC)
+- [ ]  Grover's algorithm for searching
+- [ ] Quantum algorithm for factoring
+- [ ] Hamiltonian modelling
+- [ ] optimal control
+- [ ] quantum key distribution for secure communication
+- [ ] quantum error correction for robust computation
+- [x] X(Online Resources)
+- [ ] IBM Quantum Experience 
+- [ ] Microsoft Quantum Development Kit 
+- [ ] Google Quantum Playground 
+- [ ] Qiskit Textbook
