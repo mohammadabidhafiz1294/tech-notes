@@ -1,6 +1,5 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -8,16 +7,17 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.Backlinks(),
   ],
-  footer: Component.Footer({
+  footer: Component.DesktopOnly(Component.Footer({
     links: {
       GitHub: "https://github.com/mohammadabidhafiz1294/tech-notes",
     },
-  }),
+  })),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.MobileOnly(Component.Spacer()),
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -28,9 +28,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+    )),
   ],
   right: [
+    Component.MobileOnly(Component.Explorer(
+      {
+        title: "Explorer", // title of the explorer component
+        folderClickBehavior: "collapse", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
+        folderDefaultState: "collapsed", // default state of folders ("collapsed" or "open")
+        useSavedState: false, // whether to use local storage to save "state" of folders
+      }
+    )),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),
   ],
