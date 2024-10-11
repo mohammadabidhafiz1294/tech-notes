@@ -1,0 +1,11 @@
+{
+  "accentColor": "#7eeb70",
+  "nativeMenus": false,
+  "translucency": true,
+  "enabledCssSnippets": [
+    "obsidian"
+  ],
+  "baseFontSize": 17,
+  "interfaceFontFamily": "",
+  "theme": "obsidian"
+}
