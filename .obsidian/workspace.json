@@ -11,10 +11,15 @@
             "id": "12406515435c8d5d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Operating Systems/PPA in Repository add.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PPA in Repository add"
             }
           }
         ],
@@ -75,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 246.5
   },
   "right": {
     "id": "de071c2775da4e50",
@@ -91,11 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/Operating Systems/PPA in Repository add.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from PPA in Repository add"
             }
           },
           {
@@ -119,12 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/Operating Systems/PPA in Repository add.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PPA in Repository add"
             }
           },
           {
@@ -169,6 +176,7 @@
   },
   "active": "12406515435c8d5d",
   "lastOpenFiles": [
+    "content/Operating Systems/PPA in Repository add.md",
     "Operating Systems/Linux/Linux Top Commands.md",
     "Operating Systems/Linux/LINUX kernel can't directly clean ram.md",
     "Operating Systems/Linux/Linux File System Implemetation.md",
@@ -204,7 +212,6 @@
     "Cloud Provider",
     "WEB-site/CMS & website.md",
     "README.md",
-    "Short Key Notes.md",
     "WEB-site/Jekyll/Personal Blogs and website structure diagram.canvas",
     "Learning PATH/Skills Key Points",
     "Learning PATH/Certifications",
