@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c398dad0a9324dfb",
+        "id": "e1043b3ee8fa6045",
         "type": "tabs",
         "children": [
           {
-            "id": "12406515435c8d5d",
+            "id": "225c0647187060b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,10 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12406515435c8d5d",
+  "active": "225c0647187060b7",
   "lastOpenFiles": [
-    "content/Operating Systems/PPA in Repository add.md",
+    "Dynamic Inventory.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
+    "content/Operating Systems/PPA in Repository add.md",
     "content/BLOG",
     "Operating Systems/Linux/Linux Top Commands.md",
     "Operating Systems/Linux/LINUX kernel can't directly clean ram.md",
@@ -212,7 +213,6 @@
     "Untitled",
     "Cloud Provider/AWS",
     "Cloud Provider",
-    "WEB-site/CMS & website.md",
     "WEB-site/Jekyll/Personal Blogs and website structure diagram.canvas",
     "Learning PATH/Skills Key Points",
     "Learning PATH/Certifications",
