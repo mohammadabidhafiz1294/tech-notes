@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-2.md",
+                "file": "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ansible+Terraform Project - Begginer to Advanced - part-2"
+              "title": "Ansible+Terraform Project - Begginer to Advanced - part-1"
             }
           }
         ],
@@ -177,8 +177,10 @@
   },
   "active": "8cc11f61efa2e354",
   "lastOpenFiles": [
+    "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-4.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-2.md",
+    "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-3.md",
     "Untitled.base",
     "Dynamic Inventory.md",
     "content/Operating Systems/PPA in Repository add.md",
@@ -207,8 +209,6 @@
     "Learning PATH/Skills Key Points/DevOps Skills.md",
     "TECHNO Services/Docker Tutorial/Docker Introduction.md",
     "TECHNO Services/Docker Tutorial/Docker Engine.md",
-    "TECHNO Services/Docker Tutorial/Docker Compose Structure.md",
-    "TECHNO Services/Docker Tutorial/Docker commands.md",
     "Cloud Provider/AWS/LocalStack",
     "Cloud Provider/GCP",
     "Cloud Provider/Azure",
