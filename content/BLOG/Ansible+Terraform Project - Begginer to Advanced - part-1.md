@@ -20,28 +20,15 @@
 		- [[#Collections]]
 	-  [[#Installation and Setup]]
 -  [[#**Understanding Terraform**]]
-	-  What is Terraform?
-	-  Key Features and Benefits
-	- Core Components of Terraform
-	-  Providers
-	-  Modules
-	- State Management
-	- Provisioning
-	- Installation and Setup
-- Ansible and Terraform - A Comparative Overview
-- Use Cases for Each Tool
--  Complementarity of Ansible and Terraform
--  Conceptual Understanding of IaC (Infrastructure as Code)
-- Building a Basic Project with Ansible
-- Setting Up a Development Environment
--  Writing a Simple Playbook
-- Using Ansible Modules
-- Managing Inventory and Configurations
-- Building a Basic Project with Terraform
--  Setting Up a Development Environment
-- Writing a Basic Terraform Configuration
-- Using Terraform Providers and Resources
-- Managing Terraform State
+	-  [[#Why Terraform??]]
+	-  [[#Key Features and Benefits]]
+	- [[#Core Components of Terraform]]
+	-  [[#Providers]]
+	-  [[#Modules]]
+	- [[#State Management]]
+	- [[#Provisioning]]
+	- [[#Installation and Setup]]
+
 - Advanced Ansible Techniques
 -  Role-Based Project Structure
 - Error Handling and Debugging Tips
@@ -432,3 +419,6 @@ Modules are containers for multiple resources that are used together. They can b
 Terraform maintains a state file (terraform.tfstate) that maps real-world resources to your configuration.
 ##### Provisioning
 Terraform can provision infrastructure and then bootstrap it using provisioners (though Ansible is often better for configuration management).
+
+#### Installation & Setup
+According to the system operating , follow the [website terrraform](https://developer.hashicorp.com/terraform).
