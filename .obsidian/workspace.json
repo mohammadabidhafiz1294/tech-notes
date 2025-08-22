@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "Ansible+Terraform Project - Begginer to Advanced - part-1"
             }
+          },
+          {
+            "id": "fef44ede59fd8b58",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -167,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -174,10 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "225c0647187060b7",
+  "active": "fef44ede59fd8b58",
   "lastOpenFiles": [
-    "Dynamic Inventory.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
+    "Dynamic Inventory.md",
     "content/Operating Systems/PPA in Repository add.md",
     "content/BLOG",
     "Operating Systems/Linux/Linux Top Commands.md",
