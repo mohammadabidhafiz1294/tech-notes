@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
+                "file": "content/BLOG/On-premises Infrustracture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ansible+Terraform Project - Begginer to Advanced - part-1"
+              "title": "On-premises Infrustracture"
             }
           }
         ],
@@ -172,13 +172,15 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "8cc11f61efa2e354",
   "lastOpenFiles": [
-    "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-4.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
+    "content/BLOG/On-premises Infrustracture.md",
+    "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-4.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-2.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-3.md",
     "Untitled.base",
@@ -208,7 +210,6 @@
     "Operating Systems/Linux/Linux Top Command.md",
     "Learning PATH/Skills Key Points/DevOps Skills.md",
     "TECHNO Services/Docker Tutorial/Docker Introduction.md",
-    "TECHNO Services/Docker Tutorial/Docker Engine.md",
     "Cloud Provider/AWS/LocalStack",
     "Cloud Provider/GCP",
     "Cloud Provider/Azure",
