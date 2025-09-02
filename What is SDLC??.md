@@ -1,0 +1,1 @@
+SDLC means Software development life cycle.
