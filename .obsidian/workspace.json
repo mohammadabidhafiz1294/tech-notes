@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "What is SDLC??.md",
+                "file": "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "What is SDLC??"
+              "title": "Ansible+Terraform Project - Begginer to Advanced - part-1"
             }
           }
         ],
@@ -194,8 +194,8 @@
   },
   "active": "1374736b82440c1e",
   "lastOpenFiles": [
-    "content/BLOG/On-premises Infrustracture.md",
     "What is SDLC??.md",
+    "content/BLOG/On-premises Infrustracture.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-1.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-4.md",
     "content/BLOG/Ansible+Terraform Project - Begginer to Advanced - part-2.md",
