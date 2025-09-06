@@ -36,14 +36,18 @@ While the number and names of phases can vary, the SDLC typically involves a ser
 6. **Maintenance & Updates:** This final, ongoing phase involves regular updates, patches, performance monitoring, and addressing user issues. A strong foundation in engineering principles ensures easier scalability and adaptability during this stage. Fixing and enhancements typically involve returning to earlier phases.
 
 7. **Decommission (Retirement):** When the system reaches its end-of-life, it is removed from use.
-![Software Development Life Cycle (SDLC) - Big water Consulting | 500](https://bigwater.consulting/wp-content/uploads/2019/04/SDLC_BWC.png)
+
+![Software Development Life Cycle (SDLC) - Big water Consulting|500](https://bigwater.consulting/wp-content/uploads/2019/04/SDLC_BWC.png)
 
 ## SDLC Models
+
 The **Software Development Life Cycle (SDLC)** is guided by various models, each offering a structured framework for planning, executing, and delivering software projects. These models define the sequence of development stages, such as requirements gathering, design, coding, testing, and deployment. While the SDLC itself describes the typical phases from inception to retirement, these models _prescribe_ how engineers approach the work within those phases.
 
 Here are some of the common SDLC models and their characteristics:
 
-1. Waterfall Model
+#### 1. Waterfall Model
+
+![waterfall model|500](https://media.licdn.com/dms/image/v2/D5612AQEWHYW-hDWlog/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1710138974843?e=2147483647&v=beta&t=lIGnYSv1MUWJRUW38M0qaDnSqu9WWYPENj_OiwO1Shw)
 
 The Waterfall model is a **linear, sequential approach** to software development. In this model, each phase must be completed before the next one begins, operating under the assumption that there are no errors in the preceding phase. It is often associated with traditional, design-heavy methodologies where the design is finalized before coding starts.
 
@@ -51,8 +55,8 @@ The Waterfall model is a **linear, sequential approach** to software development
 
 • **Drawbacks:** Its **inflexibility makes it challenging to adapt to changes** or nuanced tasks. Problems detected in later phases, particularly during code and test or even operations, are significantly more expensive and time-consuming to correct than if they were found earlier.
 
-2. Agile Model
-
+#### 2. Agile Model
+![agile methaodolgy|500](https://cdn.hashnode.com/res/hashnode/image/upload/v1664433774315/VOGmbwPck.png?auto=compress,format&format=webp)
 The Agile methodology adopts a **flexible, iterative approach** to software development. It prioritizes collaboration, adaptability, and continuous customer feedback, with development occurring in **short, incremental cycles known as "sprints"**.
 
 • **Characteristics:** This framework fosters continuous evaluation, allowing for **easy changes in direction**. Agile processes are designed to welcome changing requirements, even late in development, to harness change for the customer’s competitive advantage. Working software is considered the primary measure of progress, and delivery is frequent (from a couple of weeks to a couple of months). It is **ideal for large, complex projects** that require frequent changes and close collaboration with multiple stakeholders.
@@ -63,15 +67,18 @@ The Agile methodology adopts a **flexible, iterative approach** to software deve
 
 • **Drawbacks:** Agile requires **careful communication management** , especially in larger teams, to ensure consistent messaging and coordination.
 
-3. Iterative Model
+#### 3. Iterative Model
 
+![iterative model|500](https://media.geeksforgeeks.org/wp-content/uploads/20240318095921/Phases-of-Iterative-Incremental-Model.webp)
 The Iterative model **divides a project into small, manageable parts or iterations**. Each iteration produces a working version of the software, which is then tested and refined based on feedback until the final product meets all requirements.
 
 • **Characteristics:** This model allows for **early identification and elimination of risks** and continuous refinement. It enables better control of scope, time, and resources. Microsoft's Windows operating system releases are an example of employing an iterative life cycle approach.
 
 • **Drawbacks:** It follows a more rigid structure than Agile and has **limited scope for adapting to evolving requirements** throughout the project. If an error goes undetected, all later iterations might need to be reworked, leading to "technical debt".
 
-4. V-Model
+#### 4. V-Model
+
+![v-model|500](https://browserstack.wpenginepowered.com/wp-content/uploads/2024/11/V-Model-SDLC.png)
 
 The V-Model places a strong emphasis on **testing at each stage of development**. Every development phase has a corresponding testing phase, ensuring that validation and verification are performed consistently. The "V" shape illustrates how development and testing activities occur in parallel or in corresponding stages.
 
@@ -79,17 +86,51 @@ The V-Model places a strong emphasis on **testing at each stage of development**
 
 • **Drawbacks:** This model can be **cumbersome if applied to complex projects** that require frequent changes.
 
-5. DevOps Model
+#### 5. DevOps Model
 
+![DevOps model|600](https://www.researchgate.net/publication/338672361/figure/fig20/AS:850092101750817@1579689159737/A-model-based-DevOps-approach.png)
 The DevOps model emphasizes **continuous integration (CI) and continuous deployment (CD)**, fostering collaboration and automation between development and operations teams. It aims to bridge the gap between these two traditionally separate functions.
 
 • **Characteristics:** It promotes a cultural shift where teams gain a better understanding of user requirements and needs, and operations teams are involved in the development process to add maintenance and customer needs. This leads to **faster delivery of features and updates** and can be applied in combination with other traditional models. It's **perfect for teams seeking continuous integration and deployment in large projects** , emphasizing long-term maintenance.
 
 • **Drawbacks:** It requires **more upfront investment in specialized tools and qualified staff** , which can make it difficult for small teams to implement.
 
-Other Models and Concepts:
+#### 6. Spiral Model
+![Spiral Model|500](https://media.geeksforgeeks.org/wp-content/uploads/20231202112409/spiral_77.png)
+The **Spiral model** is recognized as a common **Software Development Life Cycle (SDLC) model**.This model combines elements of the design and prototyping phases in an iterative, spiraling manner, allowing for more flexibility and control. It’s particularly suited for large, complex, and expensive projects. It focuses on risk reduction at each iteration.
 
-• **Spiral Model:** Mentioned as a common SDLC model.
+**Pros**:
+
+- High degree of flexibility and control
+- Good for managing risks in complex and large projects
+
+**Cons**:
+
+- Requires a lot of planning and management
+- Costly and time-consuming
+
+#### 7. Prototyping Model
+![Prototype model|600](https://www.boardinfinity.com/blog/content/images/2022/11/Your-paragraph-text--35-.jpg)
+
+The Prototyping Model is one of the most popularly used Software Development Life Cycle Models (SDLC models). This model is used when the customers do not know the exact project requirements beforehand.
+
+In this model, a prototype of the end product is first developed, tested, and refined as per customer feedback repeatedly till a final acceptable prototype is achieved which forms the basis for developing the final product.
+
+In this process model, the system is partially implemented before or during the analysis phase thereby allowing the customers to see the product early in the life cycle. The process starts by interviewing the customers and developing the incomplete high-level paper model.
+
+This document is used to build the initial prototype supporting only the basic functionality as desired by the customer. Once the customer figures out the problems, the prototype is further refined to eliminate them. The process continues until the user approves the prototype and finds the working model to be satisfactory.
+
+**Pros**:
+
+- Provides a working model early in the process, helping to clarify requirements and expectations
+- A prototype model is a good choice if a developer is not certain about an algorithm’s capability or compatibility
+
+**Cons**:
+
+- Risk of focusing too much on the prototype without sufficient attention to the entire system. This can lead to overlooking better design solutions.
+- Developing multiple prototypes can be time-consuming and pricey, particularly if it requires many iterations.
+
+#### ***Other Models and Concepts:***
 
 • **Incremental Development:** A refinement of the Waterfall approach where a software product is developed in several expanding increments of functional capability to hedge risks and get useful software working early.
 
@@ -101,7 +142,7 @@ Other Models and Concepts:
 
 • **Scaffolding:** The early development of software components needed to support the development, integration, and testing of the operational product, such as interface simulators or test drivers.
 
-Choosing the Right SDLC Model
+#### **Choosing the Right SDLC Model**
 
 Selecting the appropriate SDLC model is crucial for project success and depends on several factors, including **project size, complexity, budget, and team structure**.
 
@@ -112,3 +153,4 @@ Selecting the appropriate SDLC model is crucial for project success and depends 
 • The **V-Model is best for projects with highly specific requirements that prioritize testing and quality assurance**.
 
 • Teams seeking **continuous integration and deployment in large projects**, with an emphasis on long-term maintenance, should consider DevOps.
+
