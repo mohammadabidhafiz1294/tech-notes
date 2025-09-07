@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 200
   },
   "right": {
     "id": "de071c2775da4e50",
@@ -96,12 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Operating Systems/PPA in Repository add.md",
+                "file": "content/BLOG/SDLC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PPA in Repository add"
+              "title": "Outgoing links from SDLC"
             }
           },
           {
@@ -176,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e9954d364db115a",
+  "active": "4268f5021e97a559",
   "lastOpenFiles": [
     "content/BLOG/2025-09-04-SDLC.jpeg",
     "Untitled.base",
