@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "SDLC"
             }
+          },
+          {
+            "id": "778fd7679584d7e4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -176,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4268f5021e97a559",
+  "active": "778fd7679584d7e4",
   "lastOpenFiles": [
     "content/BLOG/2025-09-04-SDLC.jpeg",
     "Untitled.base",
